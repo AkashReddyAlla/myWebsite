@@ -1,0 +1,87 @@
+
+.topicstyle {
+    color:rgb(27, 4, 81) ;
+    font-size: x-large;
+}
+.color-text {
+    background: -webkit-linear-gradient(white, lime);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Section-one: Education: Styles*/
+.section-one {
+    background-image: linear-gradient(to bottom, maroon 0%, gold 100%);
+    padding-bottom:3%;
+    padding-top:1%;
+}
+.row {
+    display:flex;
+}
+/*Creating Equal Columns*/
+.column {
+    flex: 50%;
+}
+/* Education font*/
+p.education-style {
+    background: -webkit-linear-gradient(rgb(2, 8, 79), purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*Projects: Section-two: Styles*/
+.section-two {
+    background-image: -webkit-linear-gradient(-125deg, lightblue, yellowgreen);
+    padding:1%;
+}
+.project-styles {
+    color:darkblue;
+}
+.project-styles ul {
+    list-style-type: "→";
+}
+.project-styles ul li {
+    color:darkred;
+}
+/*Experiences: Section-three: Styles*/
+.section-three {
+    background-image: -webkit-linear-gradient(-125deg,ivory, lightblue );
+    padding:1%;
+    color:midnightblue;
+}
+.section-three ul {
+    list-style-type:square;
+}
+.section-three ul li {
+    color:indigo;
+}
+/*Other-Involvement: Section-four: Styles*/
+.section-four {
+    background-image: -webkit-linear-gradient(-125deg,rgb(255, 157, 0), rgb(212, 255, 0) );
+    padding:1%;
+    color:
+}
+.section-four ul {
+    list-style-type:disc;
+}
+.section-four ul li {
+    color:rgb(3, 68, 65);
+}
+/*Contact: Section-five: Styles*/
+.section-five {
+    background-color: azure;
+    padding:1%;
+    color:
+}
+/*Ending*/
+.end {
+    background-color:black;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
